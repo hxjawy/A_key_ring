@@ -1,0 +1,149 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#My_wrap{
+	width: 100%;
+	/*font-size: 0.444rem;*/
+	font-family: '宋体';
+	background: #F5F5F5;
+	padding-bottom: 10px;
+}
+
+/*头部*/
+.my-top{
+	width: 100%;
+	height: 30px;
+	background: #fff;
+}
+.my-top ul{
+	width: 100%;
+	list-style: none;
+	display: -webkit-box;
+}
+.my-top ul li{
+	-webkit-box-flex:1;
+	
+}
+
+/*个人信息栏*/
+.my_message{
+	width: 100%;
+	height: 70px;
+	background: #fff;
+	overflow: hidden;
+	padding-top: 20px;
+}
+.my_message .head-portrait{
+	width: 20%;
+	height: 100%;
+	/*border: 1px solid #ccc;*/
+	float: left;
+}
+.my_message .head-portrait .touxiang{
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+}
+.my_message .basic-information{
+	width: 80%;
+	height: 100%;
+	/*border: 1px solid #ccc;*/
+	float: left;
+	position: relative;
+
+}
+.my_message .basic-information .name{
+	padding: 5px;
+	font-weight: bold;
+}
+.my_message .basic-information .class-grade{
+	padding: 5px;
+	font-size: 14px;
+	color: #979797;
+}
+.my_message .basic-information .row_rig{
+	position: absolute;
+	right: 3%;
+	top: 20%;
+}
+
+/*积分*/
+.integral{
+	background: #fff;
+	width: 100%;
+}
+.integral ul{
+	width: 100%;
+	list-style: none;
+	display: -webkit-box;
+}
+.integral ul li{
+	-webkit-box-flex:1;
+	text-align: center;
+}
+
+/*开通和邀请*/
+.dredge-invite{
+	width: 100%;
+	height: 80px;
+	background: #fff;
+	margin-top: 10px;
+	overflow: hidden;
+	padding: 10px 25px 10px 25px;
+	box-sizing: border-box;
+}
+.dredge-invite .dredge{
+	width: 45%;
+	height: 50px;
+	border: 1px solid #ccc;
+	float: left;
+	border-radius: 35px;
+	text-align: center;
+	padding-top: 10px;
+}
+.dredge-invite .invite{
+	width: 45%;
+	height: 50px;
+	border: 1px solid #ccc;
+	float: right;
+	border-radius: 35px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+/*列表*/
+.list-ul ul{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+.list-ul ul li{
+	width: 100%;
+	/*height: 50px;*/
+	padding: 17px 0;
+	overflow: hidden;
+}
+.list-ul ul li span{
+	margin-top: 2px;
+	margin-left: 5px;
+	float: left;
+}
+/* 底部导航栏*/
+.My_footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+}
+.My_footer ul{
+	width: 100%;
+	list-style: none;
+	display: -webkit-box;
+}
+.My_footer ul li{
+	-webkit-box-flex:1;
+	text-align: center;
+}

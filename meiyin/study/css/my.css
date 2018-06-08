@@ -1,0 +1,96 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#My_wrap{
+	width: 100%;
+	/*font-size: 0.444rem;*/
+	font-family: '宋体';
+	background: #F5F5F5;
+	padding-bottom: 10px;
+}
+.top_s{
+	width: 100%;
+	height: 35px;
+	margin-top: 5px;
+	background: #fff;
+}
+.top_s .service{
+	font-size: 16px;
+	margin-left: 20px;
+}
+.top_s .service img{
+	position: relative;
+	top: 5px;
+	left: 0;
+	margin-right: 5px;
+}
+.top_s .search{
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	outline: none;
+	background: #F3F3F3;
+	text-indent: 10px;
+	margin-left: 20px;
+	font-size: 14px;
+	padding: 5px;
+	width: 50%;
+}
+.sou{
+	float: right;
+	margin-top: 4px;
+	margin-right: 15px;
+}
+
+/*轮播图*/
+.slide_show{
+	width: 99%;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+/*导航栏*/
+
+.navigation{
+	width: 100%;
+	/*height: 30px;*/
+	margin-top: 15px;
+	background: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.navigation ul{
+	width: 100%;
+	list-style: none;
+	display: -webkit-box;
+}
+.navigation ul li{
+	-webkit-box-flex:1;
+	text-align: center;
+}
+
+.mian-ke,.voice-m,.l-voice,.w-voice,.h-voice{
+	width: 100%;
+	height:150px;
+	background: #fff;
+	margin-top: 10px;
+}
+
+
+/* 底部导航栏*/
+.My_footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+}
+.My_footer ul{
+	width: 100%;
+	list-style: none;
+	display: -webkit-box;
+}
+.My_footer ul li{
+	-webkit-box-flex:1;
+	text-align: center;
+}
